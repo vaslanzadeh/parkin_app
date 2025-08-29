@@ -17,7 +17,7 @@ from plotly.colors import get_colorscale
 
 
 # ========= Load CSVs ===========
-data_directory = "parkin_app/data/"
+data_directory = "data/"
 data_files = {
     file: pd.read_csv(os.path.join(data_directory, file))
     for file in os.listdir(data_directory)
